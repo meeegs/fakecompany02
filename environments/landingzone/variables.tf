@@ -16,7 +16,7 @@ variable "location" {
 variable "virtual_network_name" {
   description = "The name of the virtual network"
   type        = string
-  
+
 }
 
 variable "address_space" {

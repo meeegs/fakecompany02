@@ -1,4 +1,4 @@
-resource azurerm_virtual_network "this" {
+resource "azurerm_virtual_network" "this" {
   name                = var.virtual_network_name
   address_space       = var.address_space
   location            = var.location
