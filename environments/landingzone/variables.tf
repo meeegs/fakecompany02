@@ -12,3 +12,14 @@ variable "location" {
   description = "The Azure region for the resources"
   type        = string
 }
+
+variable "virtual_network_name" {
+  description = "The name of the virtual network"
+  type        = string
+  
+}
+
+variable "address_space" {
+  description = "The address space for the virtual network"
+  type        = list(string)
+}
